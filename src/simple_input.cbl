@@ -1,0 +1,5 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. stdin.
+       PROCEDURE DIVISION.
+           ACCEPT n
+       STOP RUN.
