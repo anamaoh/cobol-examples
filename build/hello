@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<koopa>
+  <compilationGroup>
+    <t><![CDATA[       ]]></t>
+    <sourceUnit>
+      <programDefinition>
+        <identificationDivision>
+          <header>
+            <t><![CDATA[IDENTIFICATION]]></t>
+            <t><![CDATA[ ]]></t>
+            <t><![CDATA[DIVISION]]></t>
+            <t><![CDATA[.]]></t>
+          </header>
+          <t><![CDATA[
+]]></t>
+          <t><![CDATA[       ]]></t>
+          <programIdParagraph>
+            <t><![CDATA[PROGRAM-ID]]></t>
+            <t><![CDATA[.]]></t>
+            <t><![CDATA[ ]]></t>
+            <programName>
+              <alphanumeric>
+                <alphanumericConstant>
+                  <cobolWord>
+                    <t><![CDATA[HELLO-WORLD]]></t>
+                  </cobolWord>
+                </alphanumericConstant>
+              </alphanumeric>
+            </programName>
+            <t><![CDATA[.]]></t>
+          </programIdParagraph>
+        </identificationDivision>
+        <t><![CDATA[
+]]></t>
+        <t><![CDATA[       ]]></t>
+        <procedureDivision>
+          <header>
+            <t><![CDATA[PROCEDURE]]></t>
+            <t><![CDATA[ ]]></t>
+            <t><![CDATA[DIVISION]]></t>
+            <t><![CDATA[.]]></t>
+          </header>
+          <t><![CDATA[
+]]></t>
+          <t><![CDATA[           ]]></t>
+          <sentence>
+            <statement>
+              <displayStatement>
+                <t><![CDATA[DISPLAY]]></t>
+                <t><![CDATA[ ]]></t>
+                <literal>
+                  <literalValue>
+                    <alphanumericLiteral>
+                      <t><![CDATA['Hello world']]></t>
+                    </alphanumericLiteral>
+                  </literalValue>
+                </literal>
+              </displayStatement>
+            </statement>
+            <t><![CDATA[.]]></t>
+          </sentence>
+          <t><![CDATA[
+]]></t>
+          <t><![CDATA[           ]]></t>
+          <sentence>
+            <statement>
+              <stopStatement>
+                <t><![CDATA[STOP]]></t>
+                <t><![CDATA[ ]]></t>
+                <endpoint>
+                  <t><![CDATA[RUN]]></t>
+                </endpoint>
+              </stopStatement>
+            </statement>
+            <t><![CDATA[.]]></t>
+          </sentence>
+        </procedureDivision>
+      </programDefinition>
+    </sourceUnit>
+  </compilationGroup>
+</koopa>
