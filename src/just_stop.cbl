@@ -1,4 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. date format.
+       PROGRAM-ID. just_stop.
        PROCEDURE DIVISION.
        STOP RUN.
+      
