@@ -1,15 +1,19 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. prefix.
+       PROGRAM-ID. HELLOWORD.
+       ENVIRONMENT DIVISION.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       01 BOOLEAN-B     PIC X.
-          88 b-TRUE       VALUE "T".
-          88 b-FALSE      VALUE "F".
+           77 OPERAND1 PIC 99.
+           77 OPERAND2 PIC 99.
+           77 OPERAND3 PIC 99.
        PROCEDURE DIVISION.
-           IF 10 > 5
-              SET b-TRUE  TO TRUE
+           MOVE 10 TO OPERAND1.
+           MOVE 8 TO OPERAND2.
+           MOVE 80 TO OPERAND3.
+           IF OPERAND1 > OPERAND2 and OPERAND3 >= OPERAND2
+               DISPLAY 'OPERAND2 is the smallest'
            ELSE
-              SET b-FALSE TO TRUE
+               DISPLAY 'OPERAND2 is not the smallest'
            END-IF
-       STOP RUN.
-      
+           STOP RUN.
+           
